@@ -185,3 +185,204 @@ The analysis was designed around several business-focused questions:
 Each dashboard within the project was designed to answer one or more of these questions through interactive exploration rather than static reporting.
 
 ---
+
+
+
+
+
+
+# 📂 Dataset
+
+The analysis is based on publicly available vehicle listing data from **AutoScout24**, one of Europe's largest online automotive marketplaces.
+
+The dataset contains thousands of German vehicle listings across multiple brands, price ranges, fuel types, and geographic regions.
+
+Representative attributes include:
+
+- Vehicle Brand
+- Model
+- Price
+- Registration Year
+- Mileage
+- Fuel Type
+- Transmission
+- Engine Power
+- Vehicle Category
+- Seller Location
+- Offer Characteristics
+
+Rather than focusing on individual listings, the project aims to identify broader marketplace patterns that can support pricing decisions, inventory planning, and customer purchasing behavior.
+
+---
+
+# 🧹 Data Preparation
+
+Before beginning the analysis, the dataset was reviewed to improve consistency and analytical quality.
+
+The preparation process included:
+
+- Handling missing values
+- Standardizing categorical attributes
+- Validating price and mileage values
+- Removing obvious anomalies
+- Preparing calculated fields
+- Creating derived business metrics
+- Organizing data for interactive filtering
+
+These steps helped ensure that the resulting dashboards reflected meaningful marketplace trends rather than inconsistencies within the raw data.
+
+---
+
+# 🔍 Analytical Methodology
+
+The project followed a structured business intelligence workflow.
+
+```text
+Raw Marketplace Listings
+            ↓
+Data Cleaning & Preparation
+            ↓
+Exploratory Data Analysis
+            ↓
+Trend Identification
+            ↓
+Business Question Development
+            ↓
+Dashboard Design
+            ↓
+Insight Generation
+            ↓
+Business Recommendations
+```
+
+Rather than beginning with dashboard design, the analysis started with business questions and worked backward to identify the metrics needed to answer them.
+
+---
+
+# 🎨 Dashboard Design Philosophy
+
+A dashboard should help users think—not simply display information.
+
+The design emphasizes:
+
+- Clear visual hierarchy
+- Consistent color usage
+- Interactive filtering
+- Meaningful comparisons
+- Executive-friendly summaries
+- Minimal visual clutter
+- Self-explanatory charts
+- Business storytelling
+
+The objective was to make complex marketplace data accessible to both technical and non-technical audiences.
+
+---
+
+# 🖥 Executive Marketplace Overview
+
+The Executive Dashboard provides a high-level snapshot of marketplace activity.
+
+<p align="center">
+  <img src="assets/market-overview.png" width="100%">
+</p>
+
+The objective is to answer one simple question:
+
+> **"What is happening across the marketplace today?"**
+
+Representative KPIs include:
+
+- Average Vehicle Price
+- Average Mileage
+- Average Registration Year
+- Total Listings
+- Most Popular Brands
+- Most Common Fuel Type
+- Average Engine Power
+- Distribution of Vehicle Categories
+
+Instead of navigating multiple reports, users receive an immediate overview of marketplace conditions.
+
+---
+
+# 💰 Pricing Intelligence
+
+Vehicle pricing is influenced by many interconnected variables.
+
+Understanding these relationships helps dealerships develop competitive pricing strategies while helping buyers identify fair market value.
+
+<p align="center">
+  <img src="assets/pricing-analysis.png" width="100%">
+</p>
+
+The dashboard explores relationships between:
+
+- Price vs Mileage
+- Price vs Vehicle Age
+- Price by Brand
+- Price by Fuel Type
+- Price Distribution
+- Premium vs Economy Segments
+
+Rather than viewing price as an isolated number, the analysis places it within the broader context of vehicle characteristics and market behavior.
+
+---
+
+# 🚘 Brand Performance Analysis
+
+Brand reputation has a significant influence on resale value and customer demand.
+
+<p align="center">
+  <img src="assets/brand-analysis.png" width="100%">
+</p>
+
+The dashboard enables users to compare:
+
+- Average Price by Brand
+- Listing Volume
+- Market Share
+- Premium Brand Positioning
+- Value-Oriented Brands
+- Brand Distribution
+
+These insights help identify which manufacturers command stronger pricing power within the marketplace.
+
+---
+
+# ⛽ Fuel Type Analysis
+
+Fuel preferences continue to evolve as consumer priorities, environmental regulations, and technology change.
+
+<p align="center">
+  <img src="assets/fuel-analysis.png" width="100%">
+</p>
+
+The analysis compares:
+
+- Petrol
+- Diesel
+- Hybrid
+- Electric
+- Other Fuel Types
+
+Key questions include:
+
+- Which fuel types dominate the marketplace?
+- How do prices differ across fuel categories?
+- Are alternative fuel vehicles positioned as premium products?
+- How is consumer demand shifting?
+
+These findings provide valuable context for dealerships planning future inventory strategies.
+
+---
+
+
+
+
+
+
+
+
+
+
+
