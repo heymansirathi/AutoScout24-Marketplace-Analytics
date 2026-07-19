@@ -58,7 +58,7 @@ Seeing this project displayed in Times Square was an unforgettable milestone and
 The project was also shared on LinkedIn, where I reflected on the experience, the skills I developed, and what the competition taught me about solving real business problems through data.
 
 <p align="center">
-  <img src="assets/linkedin-announcement.png" width="85%">
+  <img src="assets/announce.png" width="85%">
 </p>
 
 ---
